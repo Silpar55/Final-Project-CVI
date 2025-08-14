@@ -53,3 +53,14 @@ python main.py --video my_sports_clip.mp4 --output results --fps 10 --viewport_s
   - `motion_detector.py`: Implements the motion detection logic using frame differencing, blurring, and contour detection.
   - `viewport_tracker.py`: Houses the logic for tracking the viewport across the frames, including smoothing the movement to create a cinematic effect.
   - `visualizer.py`: Handles the output, creating videos and images that visualize the motion detection and the tracked viewport.
+
+-----
+
+### 📺 Demos
+
+
+### [Motion Detection](https://youtu.be/N12-m1HgURM)
+
+[![Watch the video](https://img.youtube.com/vi/N12-m1HgURM/maxresdefault.jpg)](https://youtu.be/N12-m1HgURM)
+
+
