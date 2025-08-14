@@ -5,7 +5,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import socketio
 import eventlet.wsgi
 import numpy as np
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from flask import Flask
 import base64
 from io import BytesIO

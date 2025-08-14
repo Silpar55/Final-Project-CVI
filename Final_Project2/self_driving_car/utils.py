@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import cv2
 import os
-from keras.models import Sequential
-from keras.src.optimizers import Adam
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.layers import Conv2D, Flatten, Dense
 from sklearn.utils import shuffle
 
